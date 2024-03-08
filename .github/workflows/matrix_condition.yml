@@ -19,7 +19,7 @@ jobs:
         version: [10]
         names: ['test1' ,'test2']
     # condition     
-    #if: ${{ github.ref == 'refs/heads/main' }}  
+    #if: ${{ github.ref == 'refs/heads/dev' }}  
     if: github.repository == 'snatagayan19/testcronjob' 
     runs-on: ubuntu-latest
     env:
